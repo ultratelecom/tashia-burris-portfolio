@@ -1,0 +1,17 @@
+PLACEHOLDER FOR TASHIA'S PHOTO
+
+Please add the file "Tashia_In_Hoddie.jpg" to this public/ directory.
+
+This should be a professional portrait photo of Tashia Burris.
+Recommended specifications:
+- Format: JPG or PNG
+- Dimensions: 400x400 pixels or larger (square format preferred)
+- High quality, professional lighting
+- Clear, centered face composition
+
+The photo will be displayed:
+- In the Hero section as a large circular portrait
+- In social media previews (Open Graph/Twitter cards)
+- As the main visual identifier for the portfolio
+
+Once added, delete this placeholder file. 
