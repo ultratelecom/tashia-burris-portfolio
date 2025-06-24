@@ -1,3 +1,5 @@
+'use client';
+
 export default function Contact() {
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-orange-50 to-peach-50">

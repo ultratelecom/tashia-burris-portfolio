@@ -1,12 +1,22 @@
 {
-  "name": "tobago-portfolio-site",
-  "version": "0.1.0",
+  "name": "tashia-burris-portfolio",
+  "version": "1.0.0",
   "private": true,
+  "description": "Professional portfolio website for Tashia Burris - Communications Specialist, Orator, and Global Thinker from Tobago",
+  "homepage": "https://tashia-burris-portfolio.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ultratelecom/tashia-burris-portfolio.git"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "preview": "next build && next start",
+    "clean": "rm -rf .next && rm -rf dist"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -23,5 +33,19 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
     "@eslint/eslintrc": "^3"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "react",
+    "tailwindcss",
+    "vercel",
+    "tashia-burris",
+    "tobago",
+    "communications"
+  ]
 }
