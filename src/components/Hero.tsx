@@ -82,21 +82,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      
-      <style jsx>{`
-        @keyframes fade-in {
-          from { opacity: 0; transform: translateY(30px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        
-        .animate-fade-in {
-          animation: fade-in 1s ease-out;
-        }
-        
-        .animate-fade-in-delay {
-          animation: fade-in 1s ease-out 0.3s both;
-        }
-      `}</style>
     </section>
   )
 } 

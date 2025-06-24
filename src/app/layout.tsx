@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -7,6 +7,11 @@ const inter = Inter({
   subsets: ["latin"],
   display: "swap",
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   title: "Tashia Burris - Tobago to the World | Communications Specialist & Global Thinker",
@@ -40,10 +45,6 @@ export const metadata: Metadata = {
     title: "Tashia Burris - Tobago to the World",
     description: "Dynamic communications specialist, skilled orator, and global thinker from Tobago. Committed to service and advancing Tobago's presence worldwide.",
     images: ["/Tashia_In_Hoddie.jpg"],
-  },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
   },
 };
 
